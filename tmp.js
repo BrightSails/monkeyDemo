@@ -12,12 +12,17 @@
 (function() {
     'use strict';
     try{
+    document.querySelectorAll('body > table.head.auto.mb10 > tbody > tr > td > div > div.right > a.btn.btn-danger')[0].remove()
+    document.querySelectorAll('#mainmenu > li.lianghao > a')[0].remove()
+    document.querySelectorAll('#mainmenu > li.smallshop.selected')[0].remove()
+    document.querySelectorAll('#mainmenu > li:nth-child(13) > a')[0].remove()
     document.querySelectorAll('#outer')[0].innerHTML=""
     document.querySelectorAll('#info_block > tbody > tr:nth-child(3) > td > div')[0].innerHTML = ""
     document.querySelectorAll('#ka65')[0].setAttribute('style','display:none')
+    
     document.querySelectorAll('#info_block > tbody > tr:nth-child(2) > td > div.left > span:nth-child(7) > font')[0].innerHTML = ""
     }catch(error){
-        
+
     }
 
     const randomColor = () => `#${Math.random().toString(16).substr(2, 6)}`;    
