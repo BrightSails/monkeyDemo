@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     try{
-    document.querySelectorAll('body > table.head.auto.mb10 > tbody > tr > td > div > div.right > a.btn.btn-danger')[0].remove()
+    document.querySelectorAll('#body > table.head.auto.mb10 > tbody > tr > td > div > div.right > a.btn.btn-danger')[0].remove()
     document.querySelectorAll('#mainmenu > li.lianghao > a')[0].remove()
     document.querySelectorAll('#mainmenu > li.smallshop.selected')[0].remove()
     document.querySelectorAll('#mainmenu > li:nth-child(13) > a')[0].remove()
