@@ -12,6 +12,6 @@
 (function() {
     'use strict';
 
-    corsole.log("second");
+    console.log("second");
     // Your code here...
 })();
