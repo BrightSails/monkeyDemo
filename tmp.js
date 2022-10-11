@@ -11,6 +11,7 @@
 
 (function() {
     'use strict';
-    corsole.log("second version");
+
+    corsole.log("second");
     // Your code here...
 })();
