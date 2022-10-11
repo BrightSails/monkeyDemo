@@ -4,7 +4,7 @@
 // @version      0.3
 // @description  color name!
 // @author       You
-// @match        https://www.pttime.org*
+// @match        https://www.pttime.org/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
 // @grant        none
 // ==/UserScript==style="
@@ -24,14 +24,13 @@
     }
 
     let p =document.querySelectorAll('#info_block > tbody > tr:nth-child(1) > td > span > a > b')[0]
-    setInterval(function () { //每5秒刷新一次图表
-        //需要执行的代码写在这里
-                 let x= "";
+    setInterval(function () { //每0.5秒刷新一次图表
+       let x= "";
        for(let b = 0;b<5;b++){
            x+="<font color=\""+ randomColor() +"\">" + a[b] + "</font>"
        }
        p.innerHTML = x
    }, 500);
-   window.open('https://www.pttime.org/attendance.php','_self');
+   //window.open('https://www.pttime.org/attendance.php','_self');
   
 })();
