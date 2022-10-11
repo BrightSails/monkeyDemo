@@ -4,7 +4,7 @@
 // @version      0.3
 // @description  color name!
 // @author       You
-// @include      https://www.pttime.org/*
+// @match        https://www.pttime.org*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
 // @grant        none
 // ==/UserScript==style="
