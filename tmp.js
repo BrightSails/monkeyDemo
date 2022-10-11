@@ -11,11 +11,14 @@
 
 (function() {
     'use strict';
+    try{
     document.querySelectorAll('#outer')[0].innerHTML=""
     document.querySelectorAll('#info_block > tbody > tr:nth-child(3) > td > div')[0].innerHTML = ""
     document.querySelectorAll('#ka65')[0].setAttribute('style','display:none')
     document.querySelectorAll('#info_block > tbody > tr:nth-child(2) > td > div.left > span:nth-child(7) > font')[0].innerHTML = ""
-     
+    }catch(error){
+        
+    }
 
     const randomColor = () => `#${Math.random().toString(16).substr(2, 6)}`;    
     let a = document.querySelectorAll('#info_block > tbody > tr:nth-child(1) > td > span > a > b')[0].innerHTML;
