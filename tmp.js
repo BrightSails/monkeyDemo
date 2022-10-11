@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RainBow
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  color name!
 // @author       You
 // @match        https://www.pttime.org/*
