@@ -35,5 +35,3 @@
 
     // Your code here...
 })();
-
-#info_block > tbody > tr:nth-child(3) > td > div
