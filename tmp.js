@@ -38,15 +38,11 @@
 
     const randomColor = () => `#${Math.random().toString(16).substr(2, 6)}`;    
     let a = document.querySelectorAll('#info_block > tbody > tr:nth-child(1) > td > span > a > b')[0].innerHTML;
-    let x= "";
-    for(let b = 0;b<5;b++){
-        x+="<font color=\""+ randomColor() +"\">" + a[b] + "</font>"
-    }
 
     let p =document.querySelectorAll('#info_block > tbody > tr:nth-child(1) > td > span > a > b')[0]
     setInterval(function () { //每0.5秒刷新一次图表
        let x= "";
-       for(let b = 0;b<5;b++){
+       for(let b = 0;b<a.length;b++){
            x+="<font color=\""+ randomColor() +"\">" + a[b] + "</font>"
        }
        p.innerHTML = x
